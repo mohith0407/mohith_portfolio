@@ -23,7 +23,7 @@ import {
     SiCplusplus 
 } from 'react-icons/si';
 const contactInfo = [
-    { icon: FiMail, title: 'Email Me', detail: 'mohithknl@gmail.com', href: 'mailto:mohithknl@gmail.com' },
+    { icon: FiMail, title: 'Email Me', detail: 'gkhmohith@gmail.com', href: 'mailto:gkhmohith@gmail.com' },
     { icon: FiPhone, title: 'Call Me', detail: '+91 7396289316', href: 'tel:+91 7396289316' },
     { icon: FiMapPin, title: 'Location', detail: 'Kurnool, Andhra Pradesh, India', href: 'https://www.google.com/maps/place/Kurnool,+Andhra+Pradesh' },
 ];
@@ -55,8 +55,16 @@ const education = [
     },
 ];
 const projects_data = [
-  {
+   {
       number: '01',
+      title: 'FanOutService',
+      description: 'A distributed, high-concurrency backend service for a social network feed. Built in modern C++ (C++17), this project implements a Fanout-on-Write architecture and exposes a high-performance gRPC API. The entire system is containerized using Docker.',
+      tags: ['C++', 'gRPC', 'Protocol Buffers', 'Redis', 'Docker', 'Multithreading'],
+      liveLink: '#',
+      githubLink: 'https://github.com/mohith0407/fanOutService',
+    },
+  {
+      number: '02',
       title: 'NodeLink',
       description: 'A lightweight, multi-threaded BitTorrent client written from scratch in C++. This project demonstrates a deep implementation of the BitTorrent Protocol (BTP/1.0) without relying on high-level networking libraries.The primary goal of this project is to explore low-level system engineering concepts, including TCP/IP socket programming, non-blocking I/O (epoll), and binary data parsing.',
       tags: ['Cpp', 'CMake', 'BitTorrent','Bencoding'],
@@ -64,7 +72,7 @@ const projects_data = [
       githubLink: 'https://github.com/mohith0407/NodeLink',
     },
   {
-    number: '02',
+    number: '03',
     title: 'Doctor Appointment App',
     description: 'A full-stack healthcare platform that allows patients to book, reschedule, and manage appointments with doctors in real time. Features secure authentication, role-based dashboards for doctors and patients and integrated notification systems for a seamless experience.',
     tags: ['ReactJs', 'Tailwind CSS', 'Azure SQL', 'Azure Functions', 'NodeJs','Express'],
@@ -72,7 +80,7 @@ const projects_data = [
     githubLink: 'https://github.com/mohith0407/doctor-appointment-using-azurehttps://github.com/mohith0407/doctor-appointment-using-azure',
   },
   {
-    number: '03',
+    number: '04',
     title: 'EduNoww',
     description: 'An interactive LMS(E-learning) that enables students to enroll in courses, watch course content while admin can manage content, upload materials, and monitor performance. Built for scalability, accessibility, and smooth content delivery, enhanced with AI chatbot for queries related to payment processing and course curricula ',
     tags: ['React','TailwindCSS', 'Redux', 'MongoDB', 'NodeJs','Express', 'openAI API'],
@@ -80,7 +88,7 @@ const projects_data = [
     githubLink: 'https://github.com/mohith0407/edunoww-upgrade',
   },
   {
-      number: '04',
+      number: '05',
       title: 'Chat Buddies',
       description: 'Built a real-time chat system supporting instant one-to-one and group messaging utilizing WebSockets for instant, low-latency, bi-directional communication. Implemented efficient message delivery and features secure user authentication',
       tags: ['ReactJs', 'TailwindCSS', 'Websockets','NodeJs','Express','MongoDB'],
