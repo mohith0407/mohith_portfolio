@@ -58,7 +58,7 @@ const projects_data = [
    {
       number: '01',
       title: 'FanOutService',
-      description: 'A distributed, high-concurrency backend service for a social network feed. Built in modern C++ (C++17), this project implements a Fanout-on-Write architecture and exposes a high-performance gRPC API. The entire system is containerized using Docker.',
+      description: 'I created a backend engine designed to broadcast updates from famous accounts to millions of people instantly, just like on X (Twitter) or Instagram',
       tags: ['C++', 'gRPC', 'Protocol Buffers', 'Redis', 'Docker', 'Multithreading'],
       liveLink: '#',
       githubLink: 'https://github.com/mohith0407/fanOutService',
@@ -71,16 +71,8 @@ const projects_data = [
       liveLink: '#',
       githubLink: 'https://github.com/mohith0407/NodeLink',
     },
-  {
+    {
     number: '03',
-    title: 'Doctor Appointment App',
-    description: 'A full-stack healthcare platform that allows patients to book, reschedule, and manage appointments with doctors in real time. Features secure authentication, role-based dashboards for doctors and patients and integrated notification systems for a seamless experience.',
-    tags: ['ReactJs', 'Tailwind CSS', 'Azure SQL', 'Azure Functions', 'NodeJs','Express'],
-    liveLink: '#',
-    githubLink: 'https://github.com/mohith0407/doctor-appointment-using-azurehttps://github.com/mohith0407/doctor-appointment-using-azure',
-  },
-  {
-    number: '04',
     title: 'EduNoww',
     description: 'An interactive LMS(E-learning) that enables students to enroll in courses, watch course content while admin can manage content, upload materials, and monitor performance. Built for scalability, accessibility, and smooth content delivery, enhanced with AI chatbot for queries related to payment processing and course curricula ',
     tags: ['React','TailwindCSS', 'Redux', 'MongoDB', 'NodeJs','Express', 'openAI API'],
@@ -88,13 +80,23 @@ const projects_data = [
     githubLink: 'https://github.com/mohith0407/edunoww-upgrade',
   },
   {
-      number: '05',
+      number: '04',
       title: 'Chat Buddies',
-      description: 'Built a real-time chat system supporting instant one-to-one and group messaging utilizing WebSockets for instant, low-latency, bi-directional communication. Implemented efficient message delivery and features secure user authentication',
+      description: 'Built a real-time chat system supporting instant one-to-one and group messaging utilizing WebSockets for instant, low-latency, bi-directional communication. Implemented efficient message delivery and secure user authentication',
       tags: ['ReactJs', 'TailwindCSS', 'Websockets','NodeJs','Express','MongoDB'],
       liveLink: 'https://chat-buddies-three.vercel.app',
       githubLink: 'https://github.com/mohith0407/chat-buddies',
     },
+  {
+    number: '05',
+    title: 'Doctor Appointment App',
+    description: 'A full-stack healthcare platform that allows patients to book, reschedule, and manage appointments with doctors in real time. Features include secure authentication, role-based dashboards for doctors and patients and integrated notification systems for a seamless experience.',
+    tags: ['ReactJs', 'Tailwind CSS', 'Azure SQL', 'Azure Functions', 'NodeJs','Express'],
+    liveLink: '#',
+    githubLink: 'https://github.com/mohith0407/doctor-appointment-using-azure',
+  },
+  
+  
 ];
 
 const skills = [
